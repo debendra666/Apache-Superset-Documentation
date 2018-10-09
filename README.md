@@ -29,7 +29,7 @@ fabmanager create-admin --app superset
 # Note : Error: markdown() takes 1 positional argument but 2 were given
 # Steps to Resolve
 There is bug in this line .. +++ /home/work/incubator-superset/superset/utils.py(Go to the utilis.py)
-https://github.com/debendra666/Apache-Superset-Documentation/blob/master/Screenshot%20from%202018-10-09%2016-23-59.png
+![alt text](https://github.com/debendra666/Apache-Superset-Documentation/blob/master/Screenshot%20from%202018-10-09%2016-23-59.png)
 
 # Initialize the database
 superset db upgrade
