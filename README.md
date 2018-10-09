@@ -26,6 +26,12 @@ pip install superset
 
 # Create an admin user (you will be prompted to set username, first and last name before setting a password)
 fabmanager create-admin --app superset
+# Note : Error: markdown() takes 1 positional argument but 2 were given
+# Steps to Resolve
+There is bug in this line .. +++ /home/work/incubator-superset/superset/utils.py(Go to the utilis.py)
+
+
+
 
 # Initialize the database
 superset db upgrade
